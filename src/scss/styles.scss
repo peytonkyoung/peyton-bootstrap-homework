@@ -3,11 +3,24 @@
 // examples:
 // $body-bg: black;
 // $body-color: white;
-// $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
+
+//.nav-link {
+//  color: white;
+ // .nav-link:hover {
+//    color:red;
+//    text-emphasis-style: underline;
+//  }
+//}
+
+nav a:hover {
+  color: red;
+  text-decoration-line: underline;
+}
 
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
+
 
