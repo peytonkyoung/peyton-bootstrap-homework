@@ -1,34 +1,63 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
   <head>
-    <title>Bootstrap 4 Layout</title>
+    <title>Oct. 18 Captain's Log</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
   </head>
 
   <body>
     <!-- Navbar starts here -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Pirate Cove</a>
-      
+      <span class="navbar-brand mb-0 h1">Pirate Cove</span>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <a class="nav-link" href="#">Oct. 18<span class="sr-only">(current)</span></a>
+        <a class="nav-link active" href="#">Oct. 18</a>
         <a class="nav-link" href="#">Oct. 19</a>
+      </div>
 
     </nav>
 
     <!-- Jumbotron starts here -->
-    <div class="jumbotron">
-        background-image: url("paper.gif");
+    <div class="jumbotron jumbotron-fluid">
+      <h1 class="title">The Ship's Log</h1>
+      <p>A diary by Capt. Crit 'Red Beard' McGillicutty</p>
     </div>
 
+    <!-- Content starts here -->
+    <div class="container">
+      <div class="row">
 
-    <p>Testing: 1, 2, 3</p>
+        <div class="col-sm-4">
+          <img src="media/pirate.jpg" class="img-fluid" alt="Crit McGillicutty headshot">
+          <h6 class=byline><b>By Crit McGillicutty</b></h6>
+          <h6><i>Island Breeze Tribune</i></h6>
+        </div>
+
+        <div class="col-sm-8">
+          <h3 class="entry-title">It was a dark and stormy night</h3>
+          <h5>Captain's log, Oct. 18, 2018</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="footer text-center bg-light">
+          A class project by Peyton Young
+        </div>
+      </div>
+    </footer>
 
     <!-- Closing scripts here -->
     <script src="js/jquery.min.js"></script>

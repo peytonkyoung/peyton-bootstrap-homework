@@ -5,22 +5,41 @@
 // $body-color: white;
 // $font-family-sans-serif: "Helvetica Neue";
 
-//.nav-link {
-//  color: white;
- // .nav-link:hover {
-//    color:red;
-//    text-emphasis-style: underline;
-//  }
-//}
+.nav-link {
+  color: white;
+}
+
+.active {
+  font-weight: bold;
+}
 
 nav a:hover {
-  color: red;
-  text-decoration-line: underline;
+  color: white;
+  text-decoration: underline !important;
+}
+
+.jumbotron{
+  background-image: url("/media/pirate-ship.jpg");
+  background-size: cover;
+}
+
+.jumbotron p, h1{
+  text-align: center;
+  color: white;
+}
+
+.entry-title {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.2rem;
+}
+
+.title {
+  font-family: 'Indie Flower', cursive;
+  font-size: 3rem;
+  color: white;
 }
 
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
-
-
